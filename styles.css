@@ -1,0 +1,157 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+#social-proof {
+  padding: 7% 10% 5%;
+}
+
+/* Headings */
+.big-heading {
+  color: #502050;
+  font-weight: 700;
+  width: 75%;
+}
+
+/* Heading's Descriptions */
+.big-heading-description {
+  color: #937B92;
+  font-weight: 500;
+  padding-bottom: 3rem;
+  width: 80%;
+}
+
+/* Reviews */
+/* Review Cards */
+.review-card-1 {
+  background-color: #F7F2F7;
+  color: #502050;
+  font-weight: 700;
+  width: 80%;
+}
+
+.review-card-2 {
+  background-color: #F7F2F7;
+  color: #502050;
+  font-weight: 700;
+  margin: 1.5rem 0;
+  position: relative;
+  left: 7.5%;
+  width: 80%;
+}
+
+.review-card-3 {
+  background-color: #F7F2F7;
+  color: #502050;
+  font-weight: 700;
+  position: relative;
+  left: 15%;
+  width: 80%;
+}
+
+/* For a Specific Case */
+.review-card-1 .card-body, .review-card-2 .card-body, .review-card-3 .card-body {
+  padding: 1rem 2rem;
+}
+
+.review-card-1 .card-body p, .review-card-2 .card-body p, .review-card-3 .card-body p {
+  display: inline;
+}
+
+/* Custom Cards */
+.custom-card-1 {
+  background-color: #502050;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.custom-card-2 {
+  background-color: #502050;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  top: 7.5%;
+}
+
+.custom-card-3 {
+  background-color: #502050;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  top: 15%;
+}
+
+.customer-data {
+  margin-bottom: 1.5rem;
+}
+
+.profile-image {
+  border-radius: 100%;
+  float: left;
+  margin-right: 1.5rem;
+  width: 2.5rem;
+}
+
+.customer-name {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.customer-about {
+  color: #EE68A4;
+}
+
+.customer-quote {
+  color: #fff;
+  font-weight: 400;
+}
+
+.card-body span {
+  display: inline-block;
+  width: 150px;
+}
+
+@media (max-width: 375px) {
+  #social-proof {
+    padding: 20% 0;
+  }
+
+  /* Headings */
+  .big-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .big-heading-description {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .review-card-1 {
+    width: 100%;
+  }
+
+  .review-card-2 {
+    left: 0;
+    width: 100%;
+  }
+
+  .review-card-3 {
+    left: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .card-body span {
+    display: block;
+    text-align: center;
+    width: auto;
+  }
+
+  .review-card-1 .card-body p, .review-card-2 .card-body p, .review-card-3 .card-body p {
+    display: block;
+    text-align: center;
+  }
+}
