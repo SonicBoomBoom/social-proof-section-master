@@ -10,7 +10,9 @@ body {
 /* Headings */
 .big-heading {
   color: #502050;
+  font-size: 45px;
   font-weight: 700;
+  padding-bottom: 0.50rem;
   width: 75%;
 }
 
@@ -18,7 +20,7 @@ body {
 .big-heading-description {
   color: #937B92;
   font-weight: 500;
-  padding-bottom: 3rem;
+  padding-bottom: 3.5rem;
   width: 80%;
 }
 
@@ -35,9 +37,9 @@ body {
   background-color: #F7F2F7;
   color: #502050;
   font-weight: 700;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
   position: relative;
-  left: 7.5%;
+  left: 10%;
   width: 80%;
 }
 
@@ -46,28 +48,39 @@ body {
   color: #502050;
   font-weight: 700;
   position: relative;
-  left: 15%;
+  left: 20%;
   width: 80%;
 }
 
 /* For a Specific Case */
-.review-card-1 .card-body, .review-card-2 .card-body, .review-card-3 .card-body {
-  padding: 1rem 2rem;
+.rating-stars-box {
+  display: inline-block;
+  padding: 0 1.25rem 0 0rem;
 }
 
-.review-card-1 .card-body p, .review-card-2 .card-body p, .review-card-3 .card-body p {
-  display: inline;
+.rating-stars-box img {
+  padding-right: 4px;
+}
+
+.rating-text {
+  display: inline-block;
+  margin: 0;
 }
 
 /* Custom Cards */
+
 .custom-card-1 {
   background-color: #502050;
   border-radius: 10px 10px 10px 10px;
+  font-size: 14.35px;
+  padding: 0.35rem;
 }
 
 .custom-card-2 {
   background-color: #502050;
   border-radius: 10px 10px 10px 10px;
+  font-size: 14.35px;
+  padding: 0.35rem;
   position: relative;
   top: 7.5%;
 }
@@ -75,6 +88,8 @@ body {
 .custom-card-3 {
   background-color: #502050;
   border-radius: 10px 10px 10px 10px;
+  font-size: 14.35px;
+  padding: 0.35rem;
   position: relative;
   top: 15%;
 }
@@ -144,8 +159,7 @@ body {
     margin-bottom: 2rem;
   }
 
-  .card-body span {
-    display: block;
+  .review-card-1 .card-body img, .review-card-2 .card-body img, .review-card-3 .card-body img {
     text-align: center;
     width: auto;
   }
