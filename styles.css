@@ -3,8 +3,21 @@ body {
   font-size: 15px;
 }
 
+.bg-pattern-top-desktop {
+  position: absolute;
+}
+
+.bg-pattern-bottom-desktop {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: -1;
+}
+
 #social-proof {
-  padding: 7% 10% 5%;
+  position: relative;
+  padding: 8% 10% 5%;
+  /* bottom: 250px; */
 }
 
 /* Headings */
@@ -52,6 +65,10 @@ body {
   width: 80%;
 }
 
+.review-card-1, .review-card-2, .review-card-3 {
+
+}
+
 /* For a Specific Case */
 .rating-stars-box {
   display: inline-block;
@@ -68,7 +85,6 @@ body {
 }
 
 /* Custom Cards */
-
 .custom-card-1 {
   background-color: #502050;
   border-radius: 10px 10px 10px 10px;
